@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/skill.bars.jquery.js"></script>
+	<script src='./script.js'></script>
+	<title></title>
+</head>
+<div class="container-fluid">
+	<ul class="nav nav-pills">
+		<li class="pull-right">
+			<a href="#contact">Contact Me</a>
+		</li>
+		<li class="pull-right">
+			<a href="#portfolio">Portfolio</a>
+		</li>
+		<li class="pull-right">
+			<a href="#about">About Me</a>
+		</li>
+	</ul>
+</div>
+<div class="page">
+	<div class="block text-center">
+		<p class='hello'>HELLO, I AM</p>
+		<p class="name">Martin Tan</p>
+		<h3 class='hello'>Web developer with a strong focus on Fintech</h3>
+		<div class="btnList download">
+			<a class="btn btn-default" href="#">Download CV</a>
+		</div>
+	</div>
+	<div id="about" class="row skills">
+		<div class="column col1">
+			<h2>About Me:</h2>
+			<p> Started coding when I was in middle school and attended multiple robotics and
+				programming competitions when I was younger. I first started creating programmes using
+				scratch and then coded in C++ using the software Bloodshed Dev C++. During college, I rediscovered my
+				love for technology and code
+				and have been coding since. I strongly believe that technology is an enabler and aspire to be involved
+				in projects with high social imapact.
+			</p>
+			<p>
+				<h3>Education</h3>
+				<img class='edu-pic' src='./images/sim-ge.jpeg'>
+				<img class='edu-pic' src='./images/ga-brand.png'>
+			</p>
+
+		</div>
+		<div class="column col2">
+			<h2>Skill Level</h2>
+			<div class="skillbar" data-percent="85%">
+				<span class="skillbar-title" style="background: #d35400;">HTML5</span>
+				<p class="skillbar-bar" style="background: #e67e22;"></p>
+				<span class="skill-bar-percent"></span>
+			</div>
+			<!-- End Skill Bar -->
+
+			<div class="skillbar" data-percent="80%">
+				<span class="skillbar-title" style="background: #2980b9;">CSS3</span>
+				<p class="skillbar-bar" style="background: #3498db;"></p>
+				<span class="skill-bar-percent"></span>
+			</div>
+			<!-- End Skill Bar -->
+
+			<div class="skillbar" data-percent="75%">
+				<span class="skillbar-title" style="background: #2c3e50;">Javascript</span>
+				<p class="skillbar-bar" style="background: #2c3e50;"></p>
+				<span class="skill-bar-percent"></span>
+			</div>
+			<!-- End Skill Bar -->
+
+			<div class="skillbar" data-percent="60%">
+				<span class="skillbar-title" style="background: #46465e;">Java</span>
+				<p class="skillbar-bar" style="background: #5a68a5;"></p>
+				<span class="skill-bar-percent"></span>
+			</div>
+			<!-- End Skill Bar -->
+			<div class="skillbar" data-percent="40%">
+				<span class="skillbar-title" style="background: #46465e;">React</span>
+				<p class="skillbar-bar" style="background: #5a68a5;"></p>
+				<span class="skill-bar-percent"></span>
+			</div>
+			<!-- End Skill Bar -->
+			<div class="skillbar" data-percent="45%">
+				<span class="skillbar-title" style="background: #46465e;">Ruby</span>
+				<p class="skillbar-bar" style="background: #5a68a5;"></p>
+				<span class="skill-bar-percent"></span>
+			</div>
+			<!-- End Skill Bar -->
+
+
+
+		</div>
+		<div class="column col3">
+			<h2>First Development Project</h2>
+			<a href="https://scratch.mit.edu/projects/1287253/">
+				<img href="https://scratch.mit.edu/projects/1287253/" src="./images/scratch-first.png">
+			</a>
+			<p>Created with ❤️ in 2010</p>
+		</div>
+	</div>
+	<div id="portfolio" class='portfolio'>
+		<h3 class='portfolio-heading'>Portfolio Projects</h3>
+		<div class="row">
+			<div class="col-md-4">
+				<a href="https://martinhilary.github.io/snake/">
+					<img src="./images/snake.png">
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://martinhilary.github.io/recipehunt/">
+					<img src="./images/recipe-hunt.png">
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://petgram-ga-project3.herokuapp.com/">
+					<img src="./images/petgram.png">
+				</a>
+			</div>
+		</div>
+		<div class='row'>
+			<div class="col-md-4">
+				<a href="https://petgram-ga-project3.herokuapp.com/">
+					<img src="./images/petgram.png">
+				</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="contact" class="btnList text-center contact-section row">
+		<h1>Contact Me</h1>
+		<div class="contact col-md-6">
+			<h2>Get In Touch:</h2>
+			<form action="https://getform.io/f/10295aa8-6755-45a3-8645-6d6008423ddc" method="POST">
+
+				<p>Name: <input type="text" name="name"></p>
+				<p>Email: <input type="email" name="email"></p>
+				<p>Phone: <input type="tel" name="tel"></p>
+				<button type="submit">Send</button>
+			</form>
+		</div>
+		<div class="contact-section col-md-6">
+			<img src='./images/Profilepic.jpeg'>
+			<div class='contact-buttons'>
+				<a class="btn btn-default" href="https://github.com/martinhilary">Github</a>
+				<a class="btn btn-default" href="https://www.linkedin.com/in/martin-tan/">Linkedin</a>
+				<a class="btn btn-default" href="https://twitter.com/martinhilarydev">Twitter</a>
+				<a class="btn btn-default" href="https://www.instagram.com/martinhilary/">Instagram</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<body>
+</body>
+
+</html>

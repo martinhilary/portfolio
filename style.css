@@ -1,0 +1,257 @@
+.nav-pills{
+	font-family:Lobster;
+	font-size:1.7em;
+	background-color: black;
+	width: 100%;
+	margin: 0 auto;
+}
+.container-fluid{
+	padding-right: 0px; 
+    padding-left: 0px;
+    margin-right: auto;
+	margin-left: auto;
+	margin-bottom:-30px;
+}
+.block{
+	opacity: 0.7;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: auto;
+    padding-top: 30px;
+    height: 450px;
+	margin-top: 30px;
+	padding-top:60px;
+
+}
+body{
+	color: white;
+	
+}
+h1{
+	padding:0;
+	margin-top: 0px;
+}
+.edu-pic{
+	max-width:180px;
+}
+.page{
+background:linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+min-height: 800px;
+}
+
+.skills{
+	min-height:450px;
+	background-color: white
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	color:black;
+  }
+  .col1{
+	padding-left:50px;
+  }
+
+  .col1 p{
+	  line-height:2;
+  }
+  .col2{
+	  text-align: center
+  }
+  .col3{
+	text-align: center;	
+  }
+  .col3 p{
+	margin-top: 15px;
+  }
+  .col3>a>img{
+	width:90%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+.contact{
+	background-color: lightblue;
+
+}
+
+.btn-default{
+	font-size: 1.7em;
+}
+
+
+.name{
+	font-size: 72px;
+    background: -webkit-linear-gradient(rgb(18, 40, 168),rgb(172, 35, 160));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hello{
+	font-size:20px;
+}
+.download{
+	margin-top: 40px;
+}
+
+/* Skill Bar CSS */
+.skillbar {
+	position: relative;
+	display: inline-block;
+	margin: 15px 0;
+	width: 60%;
+	background: #eee;
+	height: 35px;
+	border-radius: 3px;
+  }
+  
+  .skillbar-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 110px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #ffffff;
+	background: #6adcfa;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 0 20px;
+	height: 35px;
+	line-height: 35px;
+  }
+  
+  .skillbar-bar {
+	height: 35px;
+	width: 0px;
+	background: #6adcfa;
+	border-radius: 3px;
+	display: inline-block;
+  }
+  
+  .skill-bar-percent {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	font-size: 11px;
+	height: 35px;
+	line-height: 35px;
+	color: #ffffff;
+	color: rgba(0, 0, 0, 0.4);
+  }
+  
+
+  .portfolio{
+		min-height:450px;
+		width:90%;
+  }
+  .portfolio-heading{
+	  font-size: 40px;
+	  text-align: center;
+  }
+
+  .portfolio div>a>img{
+	  width:100%;
+	  height: 288px;
+  }
+  .portfolio div.row{
+	  margin-top:20px;
+	  margin-left:40px;
+  }
+
+
+
+  .contact{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	min-height:450px;
+	width:90%;
+	margin: 10px auto;
+	margin-left: 140px;
+	padding: 16px;
+	background-color: lightblue;
+}
+.contact h1{
+	background: #43D1AF;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="tel"],
+.contact textarea,
+.contact select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="tel"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.contact button[type="submit"],
+.contact button[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #43D1AF;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.contact button[type="submit"]:hover,
+.contact button[type="button"]:hover{
+	background: #2EBC99;
+}
+
+.contact-buttons .btn-default{
+	background-color: lightcoral;
+}
+.contact-section{
+	margin-top: 20px;
+}
+.contact-section h1{
+	margin-bottom: 20px;
+}
+.contact-section img{
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
