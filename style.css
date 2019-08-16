@@ -255,3 +255,13 @@ min-height: 800px;
 	border-radius: 50%;
 	margin-bottom: 40px;
 }
+
+@media screen and (max-width:991px){
+	.portfolio div>a>img {
+		width: 42%;
+		margin: 15px;
+		display: flex;
+		float: left;
+		height: 288px;	
+	}
+}
