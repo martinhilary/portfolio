@@ -265,3 +265,17 @@ min-height: 800px;
 		height: 288px;	
 	}
 }
+
+@media screen and (max-width: 321px){
+	.portfolio div>a>img {
+		width: 42%;
+		margin: 15px;
+		display: flex;
+		float: left;
+		height: 288px;	
+	}
+	.contact-section{
+		margin-left:25px;
+	}
+}
+
