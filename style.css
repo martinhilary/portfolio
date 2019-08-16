@@ -266,7 +266,7 @@ min-height: 800px;
 	}
 }
 
-@media screen and (max-width: 321px){
+@media screen and (max-width: 600px){
 	.portfolio div>a>img {
 		width: 42%;
 		margin: 15px;
@@ -276,6 +276,7 @@ min-height: 800px;
 	}
 	.contact{
 		margin-left:25px;
+		max-width:450px !important;
 	}
 }
 
