@@ -282,7 +282,7 @@ min-height: 800px;
 
 @media screen and (max-width: 600px){
 	.contact{
-		margin-left:25px;
+		margin-left:75px;
 		max-width:500px !important;
 	}
 }
