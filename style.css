@@ -275,14 +275,6 @@ min-height: 800px;
 		height: 288px;	
 	}
 	.contact{
-		margin-left:25px;
-		max-width:450px !important;
-	}
-}
-
-@media screen and (max-width: 320px){
-	.contact{
-		margin-left:150px;
-		max-width:500px !important;
+		margin-left:80px;
 	}
 }
